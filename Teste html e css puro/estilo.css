@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+
+/* section-1 */
+
+#section-1{
+    height: 90vh;
+    display: flex;
+}
+
+.container-1 nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 68px;
+}
+
+.container-2 nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    color: black;
+}
+
+.container-1{
+    padding-top: 30px;
+    background-color: blue;
+    width: 60vw;
+
+}
+.container-2{
+    padding-top: 30px;
+    background-color: yellow;
+    border-bottom-left-radius: 8%;
+    width: 40vw;
+    height: 100vh;
+}
+
+.content-1{
+    background-color: brown;
+    width: 61%;
+    height: 44%;
+    margin: 0 auto;
+}
+
+.content-1 p, h1, h5{
+    padding-bottom: 14px;
+}
+
+
+/* section-2 */
+
+#session-2{
+    padding-bottom: 100px;
+}
+
+#session-2 .information{
+    background-color: blueviolet;
+    width: 42%;
+    margin-left: 100px;
+}
+
+#session-2 .information h5{
+    margin-left: 12px;
+    padding-top: 92px;
+    font-weight: 500;
+}
+#session-2 .information h1{
+    text-align: center;
+    font-size: 36px;
+    width: 60%;
+    padding-top: 8px;
+    font-weight: 500;
+}
+
+.includes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4em;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.include{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    text-align: justify;
+
+}
+
+.include #include-1{
+    margin-top: 170px;
+}
+
+.include #include-2{
+    margin-top: 80px;
+}
+
+.include #include-3{
+    margin-top: 170px;
+}
+
+
+.include .include-img{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px solid rgb(114, 109, 109);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+/*
+#include-1{
+    background-image: url("../img/sqr-1.jpg");
+} */
+
+
+
+
+/* section-3 */
+
+#session-3{
+    background-color: rgb(196, 196, 185);
+}
+
+#session-3 .information{
+    background-color: blueviolet;
+    width: 80%;
+    margin-left: 100px;
+}
+
+#session-3 .information h5{
+    padding-top: 92px;
+    font-weight: 500;
+}
+#session-3 .information h1{
+    text-align: center;
+    font-size: 36px;
+    width: 60%;
+    padding-top: 8px;
+    font-weight: 500;
+}
+
+/* Card */
+
+.container-card{
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-card .card{
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.container-card.card h1{
+    font-size: 2rem;
+}
+
+.container-card .card .content{
+    padding: 20px;
+    text-align: center;
+}
+
+.container-card .card .content p{
+    color: #666;
+    transition: 0.5s;
+}
+
+.container-card .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+}
+
+.container-card .card:hover{
+    background-color: #dc2e69;
+    color: white;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px #dc2e685d;
+    border-color: #dc2e69;
+}
